@@ -1,0 +1,16 @@
+a:link, a:visited, a:hover, a:active{
+	color: black;
+	text-decoration: underline;
+}
+
+input {
+  border: 2px solid #d8d8d8;
+  font-size: 22px;
+  text-align: center;
+  width: 140px;
+}
+
+input:focus{
+	border-bottom: 2px solid red;
+	outline: none;
+}
